@@ -1,0 +1,62 @@
+.h1white
+{
+    color: white;
+    font-size: 13;
+}
+
+.h2white
+{
+    color: white;
+    font-size: 23;
+}
+
+.h3white
+{
+    color: white;
+    font-size: 15;
+}
+
+.h4blue
+{
+    color: blue;
+    font-size: 18;
+}
+
+.parabotão
+{
+    color: black;
+    font-size: 17;
+}
+
+body
+{
+    background-color: rgb(33, 135, 202); 
+}
+
+form
+{
+    background-color: white); 
+    
+}
+
+div
+{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: brown;
+}
+
+
+
+.fundoCinza
+{
+    background-color: grey;
+}
+
+.fundoAmarelo
+{
+    background-color: yellow;
+}
+
+
