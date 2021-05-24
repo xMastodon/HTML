@@ -2,19 +2,14 @@
 h1{font-size:25px;font-weight:bold;font-family: Arial;color:white;text-align: center}
 h2{margin-left:10px;font-size:20px;font-family: Arial;color:white;text-align: center}
 h3{margin-left:10px;font-size:16px;font-family: Arial;color:black;text-align:center}
-.site{width:1300px;height:950px;margin-top:0;margin-left:auto;margin-bottom:0;margin-right:auto;background-color:#666}
+.site{width:1299px;height:950px;margin-top:0;margin-left:auto;margin-bottom:0;margin-right:auto;background-color:#666}
 .body{background-image:url("../imagens/background/background.jpg");color: black;font-family: Arial;line-height:3px;width:1290px;height:950px}
-.cabecalho{width:1300px;height:80px;background-color:rgba(13, 121, 243, 0.966)}
-.conteudo{width:1300px;height:640px;background-color:rgba(13, 121, 243, 0.966)}
+.cabecalho{width:1299px;height:80px;background-color:rgba(13, 121, 243, 0.966)}
+.conteudo{width:1299;height:640px;background-color:rgba(13, 121, 243, 0.966)}
 .coluna1main{width:433px;height:950px;float:left;background-color:white;margin-top:-36px}
 .coluna2main{width:433px;height:950px;float:left;background-color:white;margin-top:-57px}
-.coluna3main{width:434px;height:950px;float:left;background-color:white;margin-top:-57px}
-.coluna1EY{width:650px;height:950px;float:left;background-color:white;margin-top:-36px}
-.coluna2EY{width:650px;height:950px;float:left;background-color:white;margin-top:-57px}
-.coluna1HR{width:650px;height:950px;float:left;background-color:white;margin-top:-36px}
-.coluna2HR{width:650px;height:950px;float:left;background-color:white;margin-top:-57px}
-.coluna1Qintess{width:650px;height:950px;float:left;background-color:white;margin-top:-36px}
-.coluna2Qintess{width:650px;height:950px;float:left;background-color:white;margin-top:-57px}
+.coluna1{width:650px;height:950px;float:left;background-color:white;margin-top:-36px}
+.coluna2{width:649px;height:950px;float:left;background-color:white;margin-top:-57px}
 .imgperfil{margin-left:10px;width:300;height:300px;border-style: solid}
 .imgEY{margin-left:120px;width:300;height:130px;border-style: solid}
 .imghrtech{margin-left:100px;width:400;height:120px;border-style: solid;}
