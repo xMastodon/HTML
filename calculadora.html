@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <script>
+    (function() {
+   // your page initialization code here
+   // the DOM will be available here
+      docm
+
+   function soma() {
+      var valor1 = document.getElementById("valor1")
+      var valor2 = document.getElementById("valor2")
+      let total = parseInt(valor1.value) + parseInt(valor2.value)
+      document.getElementById("resultado").value = total;
+      console.log(parseInt(valor1.value) + parseInt(valor2.value))
+    }
+    function subtracao() {
+      var valor1 = document.getElementById("valor1")
+      var valor2 = document.getElementById("valor2")
+      let total = parseInt(valor1.value) - parseInt(valor2.value)
+      document.getElementById("resultado").value = total
+    }
+    function multiplicacao() {
+      var valor1 = document.getElementById("valor1")
+      var valor2 = document.getElementById("valor2")
+      let total = parseInt(valor1.value) * parseInt(valor2.value)
+      document.getElementById("resultado").value = total
+    }
+    function divisao() {
+      var valor1 = document.getElementById("valor1")
+      var valor2 = document.getElementById("valor2")
+      // let total = parseInt(valor1.value) / parseInt(valor2.value)
+      let total = 0
+      if (parseInt(valor1.value) == 0) { 
+        let total = parseInt(valor1.value) / parseInt(valor2.value)
+        console.log(total) 
+      } else if (parseInt(valor2.value) == 0) { 
+        let total = parseInt(valor2.value) / parseInt(valor1.value)
+        console.log(total) 
+      }
+      document.getElementById("resultado").value = total
+    }
+
+    function btnClick() {
+      let btn = document.getElementsByName("input")
+      console.log("btn clicado")
+    }
+})();
+
+    
+  </script>
+</head>
+
+<body>
+  <input id="valor1" type="text">
+  <input id="valor2" type="text">
+  <br>
+  <button onclick="soma()">Somar</button>
+  <button onclick="subtracao()">Subtrair</button>
+  <button onclick="multiplicacao()">Multiplicar</button>
+  <button onclick="divisao()">Dividir</button>
+
+  <br>
+  <br>
+  <br>
+  Resultado:
+  <input id="resultado" type="text" disabled>
+
+  <br>
+
+  <table>
+    <tr>
+      <td><input type="button" onclick="btnClick()" value="1"></td>
+      <td><button onclick="btnClick()" value="2">2</button></td>
+      <td><button onclick="btnClick()" value="3">3</button></td>
+      <td><button onclick="btnClick()" value="+">+</button></td>
+    </tr>
+    
+    <tr>
+      <td><button>4</button></td>
+      <td><button>5</button></td>
+      <td><button>6</button></td>
+      <td><button>-</button></td>
+    </tr>
+    <tr>
+      <td><button>7</button></td>
+      <td><button>8</button></td>
+      <td><button>9</button></td>
+      <td><button>*</button></td>
+    </tr>
+    <tr>
+      <td><button>0</button></td>
+      <td><button>,</button></td>
+      <td><button>/</button></td>
+    </tr>
+  </table>
+</body>
+</html>
